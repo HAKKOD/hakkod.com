@@ -234,40 +234,37 @@ fetch(`/belgeler/json/uygulamalarimiz.json?x=${new Date().getTime()}`)
                                     </td>
                                     <td>
                                         <div>
-                                            <a onclick="indir('/uygulamalarimiz/${uygulama.id}/win-x64/${uygulama.kurulumAdi}.exe')"
-                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative"
-                                                href="/uygulamalarimiz/kurulum-kilavuzu/windows/" target="_blank">
+                                            <button onclick="uygulamayiIndir(this,'${uygulama.id}', '${uygulama.kurulumAdi}.exe');"
+                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative">
                                                 <img class="img-fluid" src="/gorseller/svg/bootstrap/download.svg" alt="">
-                                                Ücretsiz İndir
+                                                <span>Ücretsiz İndir</span>
                                                 <span
                                                     class="position-absolute top-0 start-100 translate-middle badge rounded bg-white text-dark border border-dark">
                                                     win-64
                                                 </span>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="mt-3">
-                                            <a onclick="indir('/uygulamalarimiz/${uygulama.id}/win-x86/${uygulama.kurulumAdi}.exe')"
-                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative"
-                                                href="/uygulamalarimiz/kurulum-kilavuzu/windows/" target="_blank">
+                                            <button onclick="uygulamayiIndir(this,'${uygulama.id}', '${uygulama.kurulumAdi}.exe');"
+                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative">
                                                 <img class="img-fluid" src="/gorseller/svg/bootstrap/download.svg" alt="">
-                                                Ücretsiz İndir
+                                                <span>Ücretsiz İndir</span>
                                                 <span
                                                     class="position-absolute top-0 start-100 translate-middle badge rounded bg-white text-dark border border-dark">
                                                     win-86
                                                 </span>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="mt-3">
-                                            <a onclick="indir('/uygulamalarimiz/${uygulama.id}/win-arm64/${uygulama.kurulumAdi}.exe')"
-                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative"
-                                                href="/uygulamalarimiz/kurulum-kilavuzu/windows/" target="_blank">
+                                            <button onclick="uygulamayiIndir(this,'${uygulama.id}', '${uygulama.kurulumAdi}.exe');"
+                                                class="btn btn-primary bg-gradient fs-5 col-12 shadow position-relative">
                                                 <img class="img-fluid" src="/gorseller/svg/bootstrap/download.svg" alt="">
-                                                Ücretsiz İndir
+                                                <span>Ücretsiz İndir</span>
                                                 <span
                                                     class="position-absolute top-0 start-100 translate-middle badge rounded bg-white text-dark border border-dark">
                                                     arm-64
                                                 </span>
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="mt-3">
                                             <a class="btn btn-success bg-gradient fs-5 col-12 shadow"
@@ -316,5 +313,5 @@ fetch(`/belgeler/json/uygulamalarimiz.json?x=${new Date().getTime()}`)
     });
 
 
-
-// window.scrollTo(0, 0);
+document.write(`<script src="/belgeler/js/uygulamayi-indir.js?x=${new Date().getTime()}"><\/script>`);
+window.scrollTo(0, 0);
