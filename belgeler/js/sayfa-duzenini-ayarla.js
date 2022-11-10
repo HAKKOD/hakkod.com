@@ -7,7 +7,7 @@ function sayfaDuzeniniAyarla(parca) {
         console.log("PC");
         cihaz = `pc`;
     }
-    fetch(`/sayfa-parcalari/${cihaz}/${parca}.html?x=${new Date().getTime()}`)
+    fetch(`/sayfa-parcalari/${cihaz}/${parca}.html`)
         .then((yanit) => yanit.text())
         .then((veriler) => {
             // console.log('Sayfa Yüklendi');

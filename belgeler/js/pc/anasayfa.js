@@ -80,7 +80,7 @@ function fotografGoruntulemeModeliniKapat() {
 
 
 
-fetch(`/belgeler/json/uygulamalarimiz.json?x=${new Date().getTime()}`)
+fetch(`/belgeler/json/uygulamalarimiz.json`)
     .then((yanit) => yanit.json())
     .then((veriler) => {
         (async () => {
@@ -340,5 +340,5 @@ fetch(`/belgeler/json/uygulamalarimiz.json?x=${new Date().getTime()}`)
     });
 
 
-document.write(`<script src="/belgeler/js/uygulamayi-indir.js?x=${new Date().getTime()}"><\/script>`);
+document.write(`<script src="/belgeler/js/uygulamayi-indir.js"><\/script>`);
 window.scrollTo(0, 0);

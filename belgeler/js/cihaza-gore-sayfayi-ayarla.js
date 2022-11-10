@@ -8,7 +8,7 @@ function cihazaGoreSayfayiAyarla() {
         url = `/pc${window.location.pathname}`;
     }
     if (url == '') return;
-    fetch(`${url}?x=${new Date().getTime()}`)
+    fetch(`${url}`)
         .then((yanit) => yanit.text())
         .then((veriler) => {
             document.open("text/html", "replace");

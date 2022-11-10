@@ -1,5 +1,9 @@
-let uygulamBase64 = '';
-async function uygulamayiIndir(etiket, uygulamaID, uygulamaAdi, parcaSayisi = 3) {
+function bekle(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+let uygulamaBase64 = '';
+async function uygulamayiIndir(etiket, uygulamaID, uygulamaAdi, parcaSayisi = 100) {
     if (etiket.disabled == true) return;
     etiket.classList.remove("btn-danger");
     etiket.classList.remove("btn-primary");
@@ -8,12 +12,26 @@ async function uygulamayiIndir(etiket, uygulamaID, uygulamaAdi, parcaSayisi = 3)
     etiket.childNodes[3].innerText = "İndiriliyor...";
     let hataOlustumu = false;
     for (let x1 = 0; x1 < parcaSayisi; x1++) {
-        let url = `/uygulamalarimiz/${uygulamaID}/win-arm64/${x1}.base64`;
+        let parcaNumarasi = '';
+        if (x1.toString().length == 1) parcaNumarasi = `00${x1}`;
+        else if (x1.toString().length == 2) parcaNumarasi = `0${x1}`;
+        else parcaNumarasi = x1;    
+        let url = `/uygulamalarimiz/${uygulamaID}/win-arm64/${parcaNumarasi}.base64`;
         await fetch(url)
-            .then((yanit) => yanit.text())
+            .then((yanit) => {
+                if(yanit.status == 200) {
+                    return yanit.text()
+                } else {
+                    x1 = parcaSayisi;
+                    return "bitti";
+                }
+            })
             .then((veriler) => {
-                uygulamBase64 += veriler;
-                console.log(`${url} indirildi.`);
+                if(veriler != "bitti") {
+                    // console.log(veriler)
+                    uygulamaBase64 += veriler;
+                    console.log(`${url} indirildi.`);
+                }
             })
             .catch((hata) => {
                 console.error('Hata: ', hata);
@@ -24,16 +42,19 @@ async function uygulamayiIndir(etiket, uygulamaID, uygulamaAdi, parcaSayisi = 3)
                 x = parcaSayisi;
                 hataOlustumu = true;
             });
+        await bekle(100);
     }
     if (hataOlustumu) return;
+    console.log("BİTTİ")
     etiket.classList.remove("btn-secondary");
     etiket.classList.add("btn-primary");
     etiket.disabled = false;
     etiket.childNodes[3].innerText = "Ücretsiz İndir";
     const a = document.createElement('a')
-    a.href = `data:;base64,${uygulamBase64}`;
+    a.id = `dosya123`;
+    a.href = `data:;base64,${uygulamaBase64}`;
     a.download = uygulamaAdi;
     document.body.appendChild(a)
     a.click()
-    document.body.removeChild(a)
+    // document.body.removeChild(a)
 }
