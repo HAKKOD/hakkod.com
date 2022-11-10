@@ -1,0 +1,79 @@
+[
+    {
+        "id": "qr-code-generator",
+        "buyukGorsel": "/gorseller/HAKKOD-qr-kod-olusturucu.jpg",
+        "ad": "HAKKOD QR KOD OLUŞTURUCU",
+        "aciklama": "QR Kod oluşturma uygulamamız ile çok hızlı ve çok kolay bir şekilde QR kodunuzu oluşturabilirsiniz. QR kodunuzu oluşturmak için tek yapmanız gereken URL adresinizi girmek ve butona tıklamak. QR kodunuz genellikle birkaç milisaniye içerisinde hazır olacaktır. QR kod oluşturma kodları cihazınıza şifrelenmiş şekilde aktarılır. Böylece oluşturduğunuz QR kodlarını kimse göremez.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://qr-code-generator.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/QR Code Generator - HAKKOD.html",
+        "linux": "/uygulamalarimiz/qr-code-generator/kurulum.sh",
+        "kurulumAdi": "QR Code Generator - HAKKOD"
+    },
+    {
+        "id": "my-shopping-list",
+        "buyukGorsel": "/gorseller/HAKKOD-alisveris-listem.jpg",
+        "ad": "HAKKOD ALIŞVERİŞ LİSTEM",
+        "aciklama": "Alışveriş listesi uygulamamızı kullanarak alışverişlerizi verimleştirin. Alışveriş listenizi kategorize edin ve ürünlerinizi kategorilendirerek verimli bir şekilde alışveriş listenizi yönetin. Aldığınız ürünlere tik atarak hangi ürünleri alıp almadığınızı net bir şekilde görebilir ve hiçbir ürünü ıskalamadan alışverişinizi tamamlayabilirsiniz.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://my-shopping-list.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/My Shopping List - HAKKOD.html",
+        "linux": "/uygulamalarimiz/my-shopping-list/kurulum.sh",
+        "kurulumAdi": "My Shopping List - HAKKOD"
+    },
+    {
+        "id": "what-is-my-ip",
+        "buyukGorsel": "/gorseller/HAKKOD-ip-adresim-nedir.jpg",
+        "ad": "HAKKOD IP ADRESİM NEDİR?",
+        "aciklama": "IP adresim nedir uygulamamızı kullanarak IP adresinizi ve IP adresiniz vasıtasıyla bulunan bilgilerinizi detaylı bir şekilde görüntüleyebilirsiniz. Bu bilgiler arasında bulunduğunuz bölgenin coğrafi enlem ve boylam değerleri, kullandığınız internet servis sağlayıcınız gibi önemli bilgiler yer almaktadır. ",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "http://what-is-my-ip.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/What Is My IP - HAKKOD.html",
+        "linux": "/uygulamalarimiz/what-is-my-ip/kurulum.sh",
+        "kurulumAdi": "What Is My IP - HAKKOD"
+    },
+    {
+        "id": "url-shortener",
+        "buyukGorsel": "/gorseller/HAKKOD-url-kisaltici.jpg",
+        "ad": "HAKKOD URL KISALTICI",
+        "aciklama": "URL kısaltma uygulamamız ile uzun URL adreslerinizi çok hızlı ve çok kolay bir şekilde kısalatabilirsiniz. URL kısaltma işlemi tamamen şifrelenmiş bağlantılar üzerinden gerçekleştirilir. URL kısaltma geçmişiniz kendi cihazınızda depolanır ve sizden başka kimse göremez.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://url-shortener.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/URL Shortener - HAKKOD.html",
+        "linux": "/uygulamalarimiz/kurulum-kilavuzu/linux/",
+        "kurulumAdi": "URL Shortener - HAKKOD"
+    },
+    {
+        "id": "esmaul-husna-zikirmatik",
+        "buyukGorsel": "/gorseller/hakkod-ESMAUL-HUSNA-zikirmatik.jpg",
+        "ad": "HAKKOD ESMAÜL HÜSNA ZİKİRMATİK",
+        "aciklama": "Esmaül Hüsna zikirmatik uygulamamız ile Yüce ALLAH'ın 99 ismini zikredebilir ve Esmaül Hüsna'ların açıklamaları hakkında bilgi sahibi olabilirsiniz. Sevdiğiniz Esmaül Hüsna'ları favorilerinize ekleyebilirsiniz Çektiğiniz zikirlerin tamamlama oranlarınızı görebilirsiniz. Esmaül Hüsna'ların arapça yazılışları ve okunuşları hakkında bilgi sahibi edinebilirsiniz.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://esmaul-husna-zikirmatik.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/Esmaül Hüsna Zikirmatik - HAKKOD.html",
+        "linux": "/uygulamalarimiz/esmaul-husna-zikirmatik/kurulum.sh",
+        "kurulumAdi": "Esmaül Hüsna Zikirmatik - HAKKOD"
+    },
+    {
+        "id": "esmaul-husna-bilgi-testi",
+        "buyukGorsel": "/gorseller/hakkod-ESMAUL-HUSNA-bilgi-testi.jpg",
+        "ad": "HAKKOD ESMAÜL HÜSNA BİLGİ TESTİ",
+        "aciklama": "Esmaül Hüsna bilgi testi uygulamamız ile Esmaül Hüsna bilginizi test edebilir ve bilmediğiniz Esmaül Hüsna'ları öğrenerek Alemlerin Rabbi Yüce ALLAH'ı daha yakından tanıyabilirsiniz. Yanlış işaretlediğiniz şıkkın doğrusunu görebilirsiniz. Doğru ve yanlış oranlarınızı öğrenebilir ve grafik tabloları üzerinde görüntüleyebilirsiniz.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://esmaul-husna-bilgi-testi.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/Esmaül Hüsna Bilgi Testi - HAKKOD.html",
+        "linux": "/uygulamalarimiz/esmaul-husna-bilgi-testi/kurulum.sh",
+        "kurulumAdi": "Esmaül Hüsna Bilgi Testi - HAKKOD"
+    },
+    {
+        "id": "kuduz-asisi-takvimi",
+        "buyukGorsel": "/gorseller/HAKKOD-kuduz-asisi-takvimi.jpg",
+        "ad": "HAKKOD KUDUZ AŞISI TAKVİMİ",
+        "aciklama": "Kuduz aşısı 4 farklı tarihte yapılmaktadır ve bu tarihler zihinden hesaplanarak aşı kartlarında yazılmaktadır. Zihinden hesaplanarak yapıldığından dolayı bazen hatalar olur. Bu sebepten dolayı kuduz aşısı takibi uygulaması aşı tarihlerini otomatik olarak hesaplar ve hata payını ortadan kaldırır.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.whatismyipaddress.whatismyip",
+        "site": "https://kuduz-asisi-takvimi.hakkod.com/",
+        "kisayol": "/uygulamalarimiz/site-kisayolu/Kuduz Aşısı Takvimi - HAKKOD.html",
+        "linux": "/uygulamalarimiz/kuduz-asisi-takvimi/kurulum.sh",
+        "kurulumAdi": "Kuduz Aşısı Takvimi - HAKKOD"
+    }
+]
