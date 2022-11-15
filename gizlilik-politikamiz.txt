@@ -1,0 +1,6 @@
+Gizlilik Politikamız
+
+Gizliliğe önem verdiğimizden dolayı güvenli sunucular ve şifreli bağlantı kullanmaya özen gösteriyoruz.
+Yasalara göre suçlu olmadığınız sürece verilerinizi üçüncü taraf kişi veya kurumlarla paylaşmıyoruz.
+Fakat uygulamamızın kullanımını analiz etmek için google analiz vb. kullanabiliriz.
+Uygulamamızın verimli çalışabilmesi için gerekli olan verilerinizi (Örneğin seçtiğiniz tema vb.) kendi cihazınızda veya sunucularımızda depolayabiliriz.
