@@ -228,7 +228,7 @@ fetch(`/belgeler/json/uygulamalarimiz.json`)
                                         <div class="mt-3 fs-5">
                                             <p>Sadece aşağıdaki komutla da uygulamamızı kurabilirsiniz.</p>
                                             <code>
-                                                curl -s https://hakkod.com/uygulamalarimiz/kuduz-asisi-takvimi/kurulum.sh | bash
+                                                curl -s https://hakkod.com${uygulama.linux} | bash
                                             </code>
                                         </div>
                                     </td>

@@ -257,7 +257,7 @@ fetch(`/belgeler/json/uygulamalarimiz.json`)
                                 <div class="mt-3">
                                     <p>Sadece aşağıdaki komutla da uygulamamızı kurabilirsiniz.</p>
                                     <code>
-                                        curl -s ${uygulama.linux} | bash
+                                        curl -s https://hakkod.com${uygulama.linux} | bash
                                     </code>
                                 </div>
                             </div>
